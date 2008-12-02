@@ -3,12 +3,10 @@ DLX is essentially a Ruby port from the Java DLX library created by Stan Chesnut
 
 If you want to know more about Dancing Links please read the original document from
 Donald Knuth's website (http://www-cs-faculty.stanford.edu/~knuth/preprints.html document P159) or
-if you are italian have a look at my website (sandropaganotti.com).
-
-My future plan involve the creation of a Sudoku Solver and a Sudoku Generator using DLX
-techniques; if you are interested have a look at (http://www.setbb.com/phpbb/?mforum=sudoku).
+if you are italian have a look at my website (http://sandropaganotti.com).
 
 At the moment I've commented only a fraction of the full code (apologize!). I'll cover the whole
 library ASAP.
 
-Sandro Paganotti.
+Sandro Paganotti
+http://www.sandropaganotti.com

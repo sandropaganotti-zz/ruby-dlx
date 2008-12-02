@@ -1,5 +1,3 @@
-require 'node'
-
 class ColumnNode < Node
   # size:     Number of rows which have a "1" in this column
   # optional: An optional column represent a constraint that does not 
@@ -25,7 +23,12 @@ class ColumnNode < Node
   
   def to_s
     <<-EOS
-      #{super}
+      Node:   #{full_label};
+      Left:   #{label_or_null(left)};
+      Right:  #{label_or_null(right)}; 
+      Down:   #{label_or_null(down)};
+      Up:     #{label_or_null(up)};
+      Column: #{label_or_null(column)};
       Size:   #{size};  
     EOS
   end

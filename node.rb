@@ -18,7 +18,7 @@ class Node
       Right:  #{label_or_null(right)}; 
       Down:   #{label_or_null(down)};
       Up:     #{label_or_null(up)};
-      Column: #{column};
+      Column: #{label_or_null(column)};
     EOS
   end
   
