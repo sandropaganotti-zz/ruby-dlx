@@ -167,9 +167,9 @@ class DancingLinksArena
       # Check if traveller has completed one ring (visited all the columns)
       if ((this_column == @first_column) or (this_column == @traveller))    
       puts "#{@l = @l.to_i + 1}° giro" if DEBUG
-      #break if @l == 4130
+      break if @l == 30
         
-        puts "#{@solution_index} - #{@starting_count} {@solution.collect{|e| e.class.to_s}.join(" ")}" if DEBUG
+        puts "#{@solution_index} - #{@starting_count} #{@solution.collect{|e| e.class.to_s}.join(" ")}" if DEBUG
         if (this_column == @first_column) 
           result = Array.new(@solution_index)
           @solution_index.times do |i|
